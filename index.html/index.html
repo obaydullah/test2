@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIGBIT</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="d-flex align-items-start">
+      <div
+        class="nav flex-column nav-pills me-3 nav__left"
+        id="v-pills-tab"
+        role="tablist"
+        aria-orientation="vertical"
+      >
+        <!-- Logo on top -->
+        <div class="text-center mb-3">
+          <img src="../img/Logo (1).png" alt="FIGBIT Logo" class="logo" />
+        </div>
+
+        <!-- mainmenu -->
+        <div class="button__area">
+          <button
+            class="nav-link active"
+            id="v-pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#v-pills-home"
+            type="button"
+            role="tab"
+            aria-controls="v-pills-home"
+            aria-selected="true"
+          >
+            <span>Home</span>
+          </button>
+          <button
+            class="nav-link"
+            id="v-pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#v-pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="v-pills-profile"
+            aria-selected="false"
+          >
+            <span>About</span>
+          </button>
+          <button
+            class="nav-link"
+            id="v-pills-messages-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#v-pills-messages"
+            type="button"
+            role="tab"
+            aria-controls="v-pills-messages"
+            aria-selected="false"
+          >
+            <span>Services</span>
+          </button>
+          <button
+            class="nav-link"
+            id="v-pills-works-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#v-pills-works"
+            type="button"
+            role="tab"
+            aria-controls="v-pills-works"
+            aria-selected="false"
+          >
+            <span>Works</span>
+          </button>
+          <button
+            class="nav-link"
+            id="v-pills-settings-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#v-pills-settings"
+            type="button"
+            role="tab"
+            aria-controls="v-pills-settings"
+            aria-selected="false"
+          >
+            <span>Contact</span>
+          </button>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center py-3 footer__left">
+          <!-- Social Icons above footer -->
+          <div class="social-icons text-center my-3">
+            <a href="#"> <i class="fa-brands fa-behance"></i></a>
+            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+
+            <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+          <p>&copy; 2025 FIGBIT. All rights reserved.</p>
+        </footer>
+      </div>
+      <div class="tab-content" id="v-pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="v-pills-home"
+          role="tabpanel"
+          aria-labelledby="v-pills-home-tab"
+          tabindex="0"
+        >
+          <div class="divr">
+            <h1 style="color: #3d3838; font-size: 100px">
+              <img
+                src="../img/Vector.png"
+                alt="Hero Image"
+                class="img-fluid mt-3"
+                style="position: absolute; z-index: -1"
+              />My name is<br />
+              <strong style="color: #000000">Jacob Jones...</strong>
+            </h1>
+            <h3>Product Designer based in London</h3>
+            <p
+              style="
+                font-size: 18px;
+                color: #3d3838;
+                border: 1px solid black;
+                padding: 10px;
+                display: inline-block;
+              "
+            >
+              Let's talk with me
+            </p>
+            <p><strong>📱01819098789 📧erenprime@gmail.com</strong></p>
+          </div>
+          <div class="divl">
+            <img src="../img/Img.png" alt="Hero Image" class="img-fluid mt-3" />
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="v-pills-profile"
+          role="tabpanel"
+          aria-labelledby="v-pills-profile-tab"
+          tabindex="0"
+        >
+          <img
+            src="../img/Image.png"
+            alt="About Image"
+            class="img-fluid mt-3"
+          />
+          <img
+            src="../img/Sign.png"
+            alt="Decorative Shape"
+            class="img-fluid mt-3 shape__img"
+          />
+        </div>
+        <div
+          class="tab-pane fade"
+          id="v-pills-messages-tab"
+          role="tabpanel"
+          aria-labelledby="v-pills-messages-tab"
+          tabindex="0"
+        >
+          <p>Services tab</p>
+        </div>
+
+        <div
+          class="tab-pane fade"
+          id="v-pills-works"
+          role="tabpanel"
+          aria-labelledby="v-pills-works-tab"
+          tabindex="0"
+        >
+          <p>works tab</p>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="v-pills-settings"
+          role="tabpanel"
+          aria-labelledby="v-pills-settings-tab"
+          tabindex="0"
+        >
+          <p>contact tab</p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
